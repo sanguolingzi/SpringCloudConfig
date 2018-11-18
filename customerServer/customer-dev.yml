@@ -12,6 +12,11 @@ server:
 spring:
   application:
     name: CustomerServer
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 
 #ribbon:
 #    ReadTimeout: 10000 #获取或设置读取操作未完成时发生超时之前的毫秒数。
