@@ -35,3 +35,8 @@ management:
     
 customer:
     message: 你好中国人
+CustomerServer.ribbon.NFLoadBalancerRuleClassName=com.netflix.loadbalancer.RandomRule
+#NFLoadBalancerClassName：应该实施 ILoadBalancer
+#NFLoadBalancerRuleClassName：应该实施 IRule
+#NFLoadBalancerPingClassName：应该实施 IPing
+#NIWSServerListClassName：应该实施 ServerList
