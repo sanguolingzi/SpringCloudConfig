@@ -29,4 +29,4 @@ management:
     enabled: false
     
 customer:
-    message: 你好中国人12345
+    message: 你好中国人
