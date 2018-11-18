@@ -27,3 +27,6 @@ feign:
 management:
    security:
     enabled: false
+    
+customer:
+    message: 你好中国人
