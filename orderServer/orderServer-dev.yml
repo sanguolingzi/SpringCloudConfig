@@ -7,8 +7,8 @@ eureka:
     lease-renewal-interval-in-seconds: 5
     # 告诉服务端，如果我2s之内没有给你发心跳，就代表我“死”了，将我踢出掉。
     lease-expiration-duration-in-seconds: 10
-server:
-  port: 8773
+#server:
+#  port: 8773
 feign:
     hystrix:
         enabled: true
