@@ -34,7 +34,7 @@ management:
     enabled: false
     
 customer:
-    message: 你好中国人
+    message: 你好中国人12345
 #OrderServer:
 #  ribbon:
 #    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
