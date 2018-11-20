@@ -12,3 +12,7 @@ server:
 feign:
     hystrix:
         enabled: true
+
+management:
+   security:
+    enabled: false
